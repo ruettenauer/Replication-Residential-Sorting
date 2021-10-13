@@ -1,0 +1,66 @@
+<table class="texreg" style="margin: 10px auto;border-collapse: collapse;border-spacing: 0px;color: #000000;border-top: 2px solid #000000;">
+<caption>Fixed effects individual slopes (FEIS) estimator. Dep. var.: Number of industrial facilities</caption>
+<thead>
+<tr>
+<th style="padding-left: 5px;padding-right: 5px;">&nbsp;</th>
+<th style="padding-left: 5px;padding-right: 5px;">(1)</th>
+<th style="padding-left: 5px;padding-right: 5px;">(2)</th>
+<th style="padding-left: 5px;padding-right: 5px;">(3)</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">Income tax revenue$_{t-1}$</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.012<sup>&#8224;</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.009</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.024</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.007)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.006)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.029)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">W Income tax revenue$_{t-1}$</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.018<sup>&#8224;</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.011</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.092</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.009)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.009)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.063)</td>
+</tr>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">R<sup>2</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.015</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.015</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.028</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Adj. R<sup>2</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.015</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.014</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.026</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Num. obs.</td>
+<td style="padding-left: 5px;padding-right: 5px;">40095</td>
+<td style="padding-left: 5px;padding-right: 5px;">31374</td>
+<td style="padding-left: 5px;padding-right: 5px;">8721</td>
+</tr>
+<tr style="border-bottom: 2px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">Num. groups: kennziffer</td>
+<td style="padding-left: 5px;padding-right: 5px;">4455</td>
+<td style="padding-left: 5px;padding-right: 5px;">3486</td>
+<td style="padding-left: 5px;padding-right: 5px;">969</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="font-size: 0.8em;" colspan="4"><sup>***</sup>p &lt; 0.001; <sup>**</sup>p &lt; 0.01; <sup>*</sup>p &lt; 0.05; <sup>&#8224;</sup>p &lt; 0.1. Cluster robust standard errors in parentheses</td>
+</tr>
+</tfoot>
+</table>

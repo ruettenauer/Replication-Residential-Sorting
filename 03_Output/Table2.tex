@@ -1,0 +1,34 @@
+\begin{table}[ht!]
+\centering
+\footnotesize
+{\begin{threeparttable}
+\caption{Fixed effects individual slopes (FEIS) estimator. Dep. var.: Number of industrial facilities}
+\begin{center}
+\begin{tabular}{l D{.}{.}{4.5} D{.}{.}{4.5} D{.}{.}{4.5}}
+\hline 
+   & \multicolumn{1}{c}{Overall} & \multicolumn{1}{c}{West} & \multicolumn{1}{c}{East}  \\
+           \cmidrule(lr){2-4}
+ & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} \\
+\hline
+Income tax revenue$_{t-1}$   & -0.012^{\dagger} & -0.009  & -0.024  \\
+                             & (0.007)          & (0.006) & (0.029) \\
+W Income tax revenue$_{t-1}$ & 0.018^{\dagger}  & 0.011   & 0.092   \\
+                             & (0.009)          & (0.009) & (0.063) \\
+\hline
+ Controls & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes}  \\
+ \hline
+R$^2$                        & 0.015            & 0.015   & 0.028   \\
+Adj. R$^2$                   & 0.015            & 0.014   & 0.026   \\
+Num. obs.                    & 40095            & 31374   & 8721    \\
+Num. groups: id      & 4455             & 3486    & 969     \\
+\hline
+ \end{tabular}
+ \begin{tablenotes}
+ \item \scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$, $^{\dagger}p<0.1$. Standardized coefficients. Cluster robust standard errors in parentheses. W is the spatially lagged coefficient. Controls: \% aged 18 or younger, \% aged 65 or above, population density, population density$^2$, \% of foreigners, year dummies (except year, all additionally included as spatial lag). Slopes for FEIS: trade tax revenue per capita, trade tax revenue per capita$^2$.}
+\end{tablenotes}
+\label{tab:siting}
+\end{center}
+\end{threeparttable}
+}
+\end{table} 
+
