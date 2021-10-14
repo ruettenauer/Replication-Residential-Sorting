@@ -1,8 +1,9 @@
 *.Rproj.user
 *.Rhistory
+
 02_Data/*
 !.gitkeep
 !Gem-Gemverb_Makro.csv
 !Gemverb_Makro.csv
-!ioer/*
+!02_Data/ioer/*
 
